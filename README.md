@@ -1,8 +1,18 @@
-# Data Agents Presentations
+# Data Agents Materials and Presentations
 
-Presentations written in Markdown instead of PowerPoint, using the Aalto University visual identity. Each deck is a plain text file that builds into an accessible web page (HTML) and a PDF handout.
+Teaching materials and presentations on AI in qualitative research, by Emrecan Gülay, Aalto University.
 
-## Quick start
+## Presentations
+
+### Qualitative research with AI · Thursday 22 October 2026
+
+[Read the presentation (PDF)](decks/Thursday%2022%20October%202026%20-%20Qualitative%20research%20with%20AI/Thursday%2022%20October%202026%20-%20Qualitative%20research%20with%20AI.pdf) · [Browse the slides, sources and credits](decks/Thursday%2022%20October%202026%20-%20Qualitative%20research%20with%20AI)
+
+The PDF can be read or downloaded directly on GitHub. To use the HTML slides, download the repository and open the presentation's `.html` file. Keep its `assets/` folder beside it.
+
+## Edit and build the materials
+
+The presentations use Markdown and Marp with the Aalto University theme. Each deck builds into HTML slides and a PDF handout.
 
 Double-click `start.bat`. It installs the tools on first run (needs Node.js) and offers:
 
