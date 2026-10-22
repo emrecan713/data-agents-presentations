@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <title>Example picture: coloured squares</title>
+  <rect width="600" height="800" fill="#e8e8e8"/>
+  <rect x="0" y="0" width="300" height="300" fill="#f7e159"/>
+  <rect x="300" y="200" width="300" height="300" fill="#46a5ff"/>
+  <rect x="0" y="500" width="300" height="300" fill="#fd6360"/>
+  <rect x="300" y="600" width="300" height="200" fill="#000000"/>
+</svg>

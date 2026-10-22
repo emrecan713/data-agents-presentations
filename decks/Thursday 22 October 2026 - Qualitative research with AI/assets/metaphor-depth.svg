@@ -1,0 +1,7 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 200' font-family='Arial, Helvetica, sans-serif'>
+<rect x='18' y='58' width='184' height='132' fill='#dcecfb'/>
+<path d='M18 58 q23 -14 46 0 t46 0 t46 0 t46 0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M18 104 H202 M18 148 H202' stroke='#5a5a5a' stroke-width='3' stroke-dasharray='8 8'/>
+<circle cx='110' cy='30' r='12' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<line x1='110.0' y1='50.0' x2='110.0' y2='168.0' stroke='#000000' stroke-width='4' stroke-linecap='round'/><path d='M110.0 182.0 L117.0 168.0 L103.0 168.0 Z' fill='#000000'/>
+</svg>

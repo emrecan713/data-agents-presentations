@@ -1,0 +1,4 @@
+# Shared Marp settings for every deck in this folder.
+themeSet: ./theme/aalto.css
+html: true            # needed for columns, boxes, process diagrams and <figure>
+allowLocalFiles: true # lets PDF export read images in each deck's assets/ folder

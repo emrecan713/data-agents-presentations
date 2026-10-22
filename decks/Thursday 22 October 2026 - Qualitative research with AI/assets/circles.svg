@@ -1,0 +1,23 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1180 430' font-family='Arial, Helvetica, sans-serif'>
+<circle cx='230' cy='215' r='200' fill='#dcecfb' stroke='#005a9c' stroke-width='3'/>
+<circle cx='230' cy='215' r='150' fill='#eef5fc' stroke='#005a9c' stroke-width='3'/>
+<circle cx='230' cy='215' r='100' fill='#ffffff' stroke='#005a9c' stroke-width='3'/>
+<circle cx='188' cy='207' r='17' fill='#ffffff' stroke='#006b61' stroke-width='3.5'/><circle cx='188' cy='203' r='5.5' fill='#006b61'/><path d='M179 217 Q188 205 197 217' fill='#006b61'/>
+<rect x='256' y='194' width='32' height='30' rx='7' fill='#ffffff' stroke='#005a9c' stroke-width='3.5'/><circle cx='266' cy='209' r='3.5' fill='#005a9c'/><circle cx='278' cy='209' r='3.5' fill='#005a9c'/><path d='M272 194 V187' stroke='#005a9c' stroke-width='3' stroke-linecap='round'/>
+<line x1='210.0' y1='207.0' x2='236.0' y2='207.0' stroke='#a51f39' stroke-width='3' stroke-linecap='round'/><path d='M250.0 207.0 L236.0 200.0 L236.0 214.0 Z' fill='#a51f39'/>
+<line x1='250.0' y1='207.0' x2='224.0' y2='207.0' stroke='#a51f39' stroke-width='3' stroke-linecap='round'/><path d='M210.0 207.0 L224.0 214.0 L224.0 200.0 Z' fill='#a51f39'/>
+<text x='188' y='251' font-size='16' text-anchor='middle' font-weight='700' fill='#000000'>Researcher</text>
+<text x='272' y='251' font-size='16' text-anchor='middle' font-weight='700' fill='#000000'>AI</text>
+<circle cx='383' cy='86' r='6' fill='#005a9c'/>
+<path d='M383 86 L520 50' stroke='#005a9c' stroke-width='2'/>
+<text x='536' y='56' font-size='30' text-anchor='start' font-weight='700' fill='#005a9c'>Corporate control and regulation</text>
+<text x='536' y='90' font-size='24' text-anchor='start' font-weight='400' fill='#5a5a5a'>Who builds, owns and governs AI systems</text>
+<circle cx='380' cy='215' r='6' fill='#005a9c'/>
+<path d='M380 215 L520 195' stroke='#005a9c' stroke-width='2'/>
+<text x='536' y='201' font-size='30' text-anchor='start' font-weight='700' fill='#005a9c'>Institutions and their rules</text>
+<text x='536' y='235' font-size='24' text-anchor='start' font-weight='400' fill='#5a5a5a'>Universities, journals and supervisors</text>
+<circle cx='307' cy='279' r='6' fill='#005a9c'/>
+<path d='M307 279 L520 340' stroke='#005a9c' stroke-width='2'/>
+<text x='536' y='346' font-size='30' text-anchor='start' font-weight='700' fill='#005a9c'>Human–AI dyad</text>
+<text x='536' y='380' font-size='24' text-anchor='start' font-weight='400' fill='#5a5a5a'>The researcher and the AI in conversation</text>
+</svg>

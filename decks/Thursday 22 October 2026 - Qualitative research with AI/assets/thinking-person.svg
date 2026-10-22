@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 320' font-family='Arial, Helvetica, sans-serif'>
+<path d='M66.0 168.0 L72.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M62.0 240.0 L136.0 240.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M124.0 240.0 L124.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M196.0 210.0 L384.0 210.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M212.0 210.0 L212.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M368.0 210.0 L368.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M214.0 207.0 L288.0 207.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M288.0 207.0 L310.0 140.0 L360.0 140.0 L338.0 207.0 L288.0 207.0' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M110 150 C104 180 100 210 102 238' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M102.0 238.0 L176.0 238.0 L178.0 296.0 L194.0 296.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='112' cy='128' r='21' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M92 122 C96 104 122 100 132 116' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M107.0 170.0 L154.0 202.0 L134.0 152.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<text x='160' y='84' font-size='52' text-anchor='middle' font-weight='700' fill='#000000'>?</text>
+<text x='196' y='58' font-size='36' text-anchor='middle' font-weight='700' fill='#5a5a5a'>?</text>
+</svg>

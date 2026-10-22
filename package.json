@@ -1,0 +1,16 @@
+{
+  "name": "data-agents-presentations",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "scripts": {
+    "preview": "node scripts/preview.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-accessibility.mjs",
+    "new": "node scripts/new-deck.mjs",
+    "theme": "node scripts/theme.mjs"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.1"
+  }
+}

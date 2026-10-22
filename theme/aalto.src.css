@@ -1,0 +1,608 @@
+/*!
+ * @theme aalto-source
+ * @auto-scaling true
+ * @size 16:9 1280px 720px
+ *
+ * Aalto University theme for Marp.
+ * Colours, Arial typography, logo and margins follow the official
+ * Aalto University general presentation masters (June 2026 edition).
+ *
+ * Edit theme/aalto.src.css, then run `npm run theme` (or start.bat) to
+ * regenerate theme/aalto.css with the logos embedded.
+ *
+ * Text colours on every background meet WCAG 2.2 AA (4.5:1) or better.
+ * Always use black text on yellow, red and blue slides; never white.
+ */
+
+/* ---------- Tokens ---------- */
+
+section {
+  --aalto-black: #000000;
+  --aalto-white: #ffffff;
+  --aalto-yellow: #f7e159;
+  --aalto-red: #fd6360;
+  --aalto-blue: #46a5ff;
+  --aalto-grey-dark: #5a5a5a;
+  --aalto-grey: #a0a0a0;
+  --aalto-grey-light: #dcdcdc;
+  --aalto-grey-lighter: #e8e8e8;
+
+  --bg: var(--aalto-white);
+  --fg: var(--aalto-black);
+  --muted: var(--aalto-grey-dark);      /* 7.0:1 on white */
+  --accent: var(--aalto-yellow);        /* rules, quote bars, marks */
+  --surface: var(--aalto-grey-lighter); /* boxes, table heads, code */
+  --box-a: var(--aalto-yellow);
+  --box-b: var(--aalto-grey-lighter);
+
+  /* Categorical chart colours: darker shades of the Aalto hues so bars and
+     lines reach at least 3:1 against white (contrast in brackets).
+     The bright --aalto-blue/red/yellow reach only 1.3-3:1 on white: use
+     them as fills with a black outline, or as backgrounds. */
+  --chart-1: #0072ce; /* blue, 4.9:1 */
+  --chart-2: #c8302c; /* red, 5.4:1 */
+  --chart-3: #000000; /* black, 21:1 */
+  --chart-4: #8a7a00; /* yellow-olive, 4.3:1 */
+  --chart-5: #5a5a5a; /* grey, 6.9:1 */
+  --chart-highlight: var(--aalto-yellow); /* with a black outline */
+
+  --margin: 43px;
+  --logo-a: __LOGO_A__;
+  --logo-full: __LOGO_FULL__;
+  --logo-a-white: __LOGO_A_WHITE__;
+  --logo-full-white: __LOGO_FULL_WHITE__;
+}
+
+/* ---------- Slide frame ---------- */
+
+section {
+  width: 1280px;
+  height: 720px;
+  box-sizing: border-box;
+  position: relative;
+  padding: var(--margin) var(--margin) 96px;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
+  font-size: 28px;
+  line-height: 1.35;
+  letter-spacing: 0;
+  overflow: hidden;
+}
+
+/* Small A! logo, bottom left (decorative: not announced by screen readers) */
+section::before {
+  content: "";
+  position: absolute;
+  left: var(--margin);
+  bottom: 43px;
+  width: 41px;
+  height: 31px;
+  padding: 0;
+  background: var(--logo-a) no-repeat left center / contain;
+}
+
+section.black::before {
+  background-image: var(--logo-a-white);
+}
+
+/* Page number, bottom right */
+section::after {
+  content: attr(data-marpit-pagination);
+  position: absolute;
+  right: var(--margin);
+  bottom: 43px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--fg);
+}
+
+/* Footer directive: use it for sources and credits */
+footer {
+  position: absolute;
+  left: 110px;
+  right: 120px;
+  bottom: 43px;
+  font-size: 18px;
+  line-height: 1.25;
+  color: var(--muted);
+}
+
+header {
+  position: absolute;
+  left: var(--margin);
+  right: var(--margin);
+  top: 16px;
+  font-size: 18px;
+  color: var(--muted);
+}
+
+/* ---------- Typography ---------- */
+
+h1,
+h2 {
+  margin: 0 0 44px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h4,
+h5,
+h6 {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+blockquote,
+figure {
+  margin: 0 0 22px;
+}
+
+ul,
+ol {
+  padding-left: 1.2em;
+}
+
+ul {
+  list-style: "–  ";
+}
+
+li + li {
+  margin-top: 10px;
+}
+
+li > ul,
+li > ol {
+  margin: 8px 0 0;
+  font-size: 0.9em;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+mark {
+  background: var(--aalto-yellow);
+  color: var(--aalto-black);
+  padding: 0 0.15em;
+}
+
+small,
+.small {
+  font-size: 22px;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.lead {
+  font-size: 34px;
+  line-height: 1.3;
+}
+
+/* Visible only to screen readers (e.g. a data table behind a chart) */
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------- Quotes ---------- */
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 4px 0 4px 28px;
+  border-left: 8px solid var(--accent);
+}
+
+blockquote p:last-child:not(:first-child) {
+  margin: 12px 0 0;
+  font-size: 22px;
+  color: var(--muted);
+}
+
+/* ---------- Tables ---------- */
+
+table {
+  border-collapse: collapse;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+th,
+td {
+  padding: 10px 18px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--fg);
+}
+
+th {
+  background: var(--surface);
+  font-weight: 700;
+}
+
+/* ---------- Code ---------- */
+
+code {
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9em;
+  background: var(--surface);
+  padding: 0.05em 0.25em;
+}
+
+pre {
+  background: var(--surface);
+  padding: 18px 22px;
+  font-size: 22px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* ---------- Images and figures ---------- */
+
+img {
+  max-width: 100%;
+  max-height: 430px;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  display: block;
+}
+
+figure p {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 20px;
+  color: var(--muted);
+}
+
+/* ---------- Layout helpers ---------- */
+
+.columns {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 56px;
+}
+
+.columns.left-wide {
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  grid-auto-flow: row;
+}
+
+.columns.right-wide {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-auto-flow: row;
+}
+
+.columns > * > :last-child,
+.box > :last-child {
+  margin-bottom: 0;
+}
+
+.box {
+  background: var(--surface);
+  padding: 20px 24px;
+}
+
+.box.yellow {
+  background: var(--aalto-yellow);
+  color: var(--aalto-black);
+}
+
+.box.white {
+  background: var(--aalto-white);
+  color: var(--aalto-black);
+}
+
+.box.outline {
+  background: none;
+  border: 2px solid currentColor;
+}
+
+/* Process: an ordered list drawn as boxes joined by arrows.
+   <ol class="process"><li><strong>Step</strong> Detail</li>…</ol> */
+ol.process {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 32px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 76px;
+}
+
+ol.process > li {
+  position: relative;
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.3;
+}
+
+ol.process > li > strong:first-child {
+  display: block;
+  min-height: 96px;
+  box-sizing: border-box;
+  margin-bottom: 14px;
+  padding: 16px 20px;
+  background: var(--box-a);
+  color: var(--aalto-black);
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+ol.process > li:nth-child(even) > strong:first-child {
+  background: var(--box-b);
+}
+
+ol.process > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 36px;
+  right: -60px;
+  width: 44px;
+  height: 24px;
+  background: currentColor;
+  clip-path: polygon(0 35%, 62% 35%, 62% 0, 100% 50%, 62% 100%, 62% 65%, 0 65%);
+}
+
+/* ---------- Colour variants ---------- */
+
+section.yellow {
+  --bg: var(--aalto-yellow);
+  --fg: var(--aalto-black);
+  --muted: var(--aalto-black);
+  --accent: var(--aalto-black);
+  --surface: var(--aalto-white);
+  --box-a: var(--aalto-white);
+  --box-b: var(--aalto-white);
+}
+
+section.red {
+  --bg: var(--aalto-red);
+  --fg: var(--aalto-black);
+  --muted: var(--aalto-black);
+  --accent: var(--aalto-black);
+  --surface: var(--aalto-white);
+  --box-a: var(--aalto-white);
+  --box-b: var(--aalto-yellow);
+}
+
+section.blue {
+  --bg: var(--aalto-blue);
+  --fg: var(--aalto-black);
+  --muted: var(--aalto-black);
+  --accent: var(--aalto-black);
+  --surface: var(--aalto-white);
+  --box-a: var(--aalto-white);
+  --box-b: var(--aalto-yellow);
+}
+
+section.black {
+  --bg: var(--aalto-black);
+  --fg: var(--aalto-white);
+  --muted: var(--aalto-grey-light);
+  --accent: var(--aalto-yellow);
+  --surface: #2b2b2b;
+  --box-a: var(--aalto-yellow);
+  --box-b: var(--aalto-white);
+}
+
+/* ---------- Title slide ---------- */
+
+section.title {
+  display: flex;
+  flex-direction: column;
+  padding-top: 280px;
+  padding-bottom: 70px;
+}
+
+section.title.black::before,
+section.end.black::before {
+  background-image: var(--logo-full-white);
+}
+
+section.title::before {
+  top: 45px;
+  bottom: auto;
+  width: 278px;
+  height: 60px;
+  background-image: var(--logo-full);
+}
+
+section.title h1 {
+  max-width: 1030px;
+  margin: 0 0 30px;
+  font-size: 44px;
+}
+
+section.title h1::before,
+section.section-header h2::before,
+section.end h2::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 3px;
+  margin-bottom: 26px;
+  background: currentColor;
+}
+
+section.title h1 + p {
+  font-size: 28px;
+}
+
+section.title h1 + p + p {
+  margin-top: auto;
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+/* Copyright line on the title slide (footer directive) */
+section.title footer {
+  left: var(--margin);
+  bottom: 22px;
+  font-size: 16px;
+}
+
+/* ---------- Section header ---------- */
+
+section.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.section-header h2 {
+  max-width: 1030px;
+  margin-bottom: 24px;
+  font-size: 60px;
+  line-height: 1.05;
+}
+
+section.section-header p {
+  max-width: 900px;
+  font-size: 30px;
+}
+
+/* ---------- Agenda ---------- */
+
+section.agenda ol {
+  list-style: none;
+  padding: 0;
+  counter-reset: agenda;
+  max-width: 1000px;
+}
+
+section.agenda ol > li {
+  counter-increment: agenda;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  margin: 0;
+  padding: 12px 0;
+  border-top: 2px solid var(--fg);
+  font-size: 30px;
+}
+
+section.agenda ol > li:last-child {
+  border-bottom: 2px solid var(--fg);
+}
+
+section.agenda ol > li::before {
+  content: counter(agenda, decimal-leading-zero);
+  font-weight: 700;
+}
+
+/* ---------- Large quote ---------- */
+
+section.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.quote blockquote {
+  max-width: 1050px;
+  padding-left: 36px;
+  border-left-width: 10px;
+  font-size: 42px;
+  line-height: 1.25;
+}
+
+section.quote blockquote p:last-child:not(:first-child) {
+  margin-top: 28px;
+  font-size: 26px;
+}
+
+/* ---------- Statement (one big sentence) ---------- */
+
+section.statement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.statement p {
+  max-width: 1080px;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+/* ---------- Closing slide ---------- */
+
+section.end {
+  display: flex;
+  flex-direction: column;
+  padding-top: 280px;
+}
+
+section.end::before {
+  top: 45px;
+  bottom: auto;
+  width: 278px;
+  height: 60px;
+  background-image: var(--logo-full);
+}
+
+section.end h2 {
+  margin-bottom: 30px;
+  font-size: 60px;
+}
+
+section.end p {
+  margin-bottom: 8px;
+  font-size: 26px;
+}
+
+/* ---------- Picture slides (Marp `![bg right:40% alt](img)`) ---------- */
+
+/* Keep the logo off the picture when a background image is split left. */
+section[data-marpit-advanced-background-split="left"]::before {
+  display: none;
+}

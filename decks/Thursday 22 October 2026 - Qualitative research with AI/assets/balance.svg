@@ -1,0 +1,27 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 440' font-family='Arial, Helvetica, sans-serif'>
+<path d='M500 120 L468 340 H532 Z' fill='#e8e8e8' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M410.0 352.0 L590.0 352.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<line x1='203' y1='78' x2='797' y2='162' stroke='#000000' stroke-width='6' stroke-linecap='round'/>
+<circle cx='500' cy='120' r='9' fill='#000000'/>
+<path d='M202.9 78.2 L102.9 238.2' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M202.9 78.2 L302.9 238.2' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M87 238 H319 Q307 268 203 268 Q99 268 87 238 Z' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M797.1 161.8 L697.1 321.8' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M797.1 161.8 L897.1 321.8' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M681 322 H913 Q901 352 797 352 Q693 352 681 322 Z' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<rect x='153' y='220' width='100' height='16' rx='3' fill='#ffffff' stroke='#000000' stroke-width='2.5'/>
+<rect x='153' y='207' width='100' height='16' rx='3' fill='#ffffff' stroke='#000000' stroke-width='2.5'/>
+<rect x='153' y='194' width='100' height='16' rx='3' fill='#ffffff' stroke='#000000' stroke-width='2.5'/>
+<rect x='153' y='181' width='100' height='16' rx='3' fill='#ffffff' stroke='#000000' stroke-width='2.5'/>
+<text x='203' y='304' font-size='24' text-anchor='middle' font-weight='700' fill='#000000'>AI reply: long</text>
+<text x='203' y='332' font-size='22' text-anchor='middle' font-weight='400' fill='#5a5a5a'>no stakes of its own</text>
+<circle cx='769' cy='252' r='13' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M769.1 264.8 L769.1 299.8' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M769.1 299.8 L757.1 321.8' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M769.1 299.8 L781.1 321.8' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M769.1 275.8 L791.1 287.8' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M795 322 L803 282 H855 L863 322 Z' fill='#f7e159' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<text x='829' y='309' font-size='16' text-anchor='middle' font-weight='700' fill='#000000'>stakes</text>
+<text x='797' y='388' font-size='24' text-anchor='middle' font-weight='700' fill='#000000'>Researcher</text>
+<text x='797' y='416' font-size='22' text-anchor='middle' font-weight='400' fill='#5a5a5a'>answers for the work</text>
+</svg>

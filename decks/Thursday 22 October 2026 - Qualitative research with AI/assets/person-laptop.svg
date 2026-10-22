@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 320' font-family='Arial, Helvetica, sans-serif'>
+<path d='M66.0 168.0 L72.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M62.0 240.0 L136.0 240.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M124.0 240.0 L124.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M196.0 210.0 L384.0 210.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M212.0 210.0 L212.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M368.0 210.0 L368.0 300.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M214.0 207.0 L288.0 207.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M288.0 207.0 L310.0 140.0 L360.0 140.0 L338.0 207.0 L288.0 207.0' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M316 160 H344' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+<path d='M309 174 H335' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+<path d='M302 188 H326' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+<path d='M110 150 C104 180 100 210 102 238' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M102.0 238.0 L176.0 238.0 L178.0 296.0 L194.0 296.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<circle cx='112' cy='128' r='21' fill='#ffffff' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M92 122 C96 104 122 100 132 116' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M106.0 168.0 L160.0 196.0 L222.0 204.0' fill='none' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M40 22 H184 Q200 22 200 38 V68 Q200 84 184 84 H114 L104 100 L94 84 H40 Q24 84 24 68 V38 Q24 22 40 22 Z' fill='#dcecfb' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M46 44 h132' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+<path d='M46 60 h73' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+<path d='M248 30 H380 Q396 30 396 46 V76 Q396 92 380 92 H328 L318 128 L308 92 H248 Q232 92 232 76 V46 Q232 30 248 30 Z' fill='#f7e159' stroke='#000000' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/>
+<path d='M254 52 h120' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+<path d='M254 68 h66' stroke='#5a5a5a' stroke-width='3' stroke-linecap='round'/>
+</svg>

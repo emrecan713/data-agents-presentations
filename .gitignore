@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Decks kept on this computer only
+decks/Tuesday 20 October 2026 - Data Agents workshop/
+decks/Tuesday 20 October 2026 - Data Agents workshop ten minute talk/
+
+# Local editing instructions
+AGENTS.md
+CLAUDE.md
