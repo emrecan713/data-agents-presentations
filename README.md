@@ -1,4 +1,4 @@
-# Data Agents Materials and Presentations
+# What are we working with? Qualitative research with AI
 
 Teaching materials and presentations on AI in qualitative research, by Emrecan Gülay, Aalto University.
 
